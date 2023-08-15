@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALs Lieferservice</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body onload="food()">
+    <header>
+        <h2>ALs Lieferservice</h2>
+        <p class="adress">Körnerstraße 10, 04275 Leipzig</p>
+        
+
+
+    </header>
+    <div class="resContent dnone" id="resContent"></div>
+    <div class="btnThin dnone" id="btnThin"></div>
+    <div class="headpic">
+        <img src="./img/pizza.jpg">
+    </div>
+
+    <div class="restaurant">
+        <div class="name">
+            <h1>ALs Pizzaservice</h1>
+            
+        </div>
+        <div class="rating">
+            <img src="./img/rating.png">
+            <p>(3,5k Bewertungen)</p>
+        </div>
+        <div class="conditions">
+            <img src="./img/time.png" alt="">
+            <p>Ab 11 Uhr</p>
+            <img src="./img/bike.png" alt="">
+            <p id="conditions">2,50€</p>
+            <img src="./img/bag.png" alt="">
+            <p>Min.</p>
+            <p id="minimum">10,00€</p>
+        </div>
+    </div>
+        <div class="navbar" id="navbar">
+            <a href="#saladstart" class="walk"> Salate</a>
+            <a href="#pizzastart" class="walk"> Pizza</a>
+            <a href="#pastastart" class="walk"> Pasta</a>
+            <a href="#dessertstart" class="walk"> Desserts</a>
+            <a href="#beveragestart" class="walk"> Getränke</a>
+   
+    </div>
+    <div class="menu">
+        <div class="headline" id="favor">
+            <h3>Beliebte Gerichte</h3>
+        </div>
+        <div class="favorites" id="favorites"></div>
+        <div class="headline" id="saladstart">
+            <img src="./img/vegetables.jpg" class="subpic">
+            <h3>Salate</h3>
+        </div>
+        <div class="salads" id="salads"></div>
+        <div class="headline" id="pizzastart">
+            <img src="./img/pizza2.jpg" class="subpic">
+            <h3>Pizza</h3>
+        </div>
+        <div class="pizza" id="pizza"></div>
+        <div class="headline" id="pastastart">
+            <img src="./img/pasta.jpg" class="subpic">
+            <h3>Pasta</h3>
+        </div>
+        <div class="pasta" id="pasta"></div>
+        <div class="headline" id="dessertstart">
+            <img src="./img/dessert.jpg" class="subpic">
+            <h3>Desserts</h3>
+        </div>
+        <div class="dessert" id="dessert"></div>
+        <div class="headline" id="beveragestart">
+            <img src="./img/drinks.jpg" class="subpic">
+            <h3>Getränke</h3>
+        </div>
+        <div class="beverage" id="beverage"></div>
+        <div id="showbasket"></div>
+        <button class="btnshow dnone" id="payButton2"></button>
+        <div class="impressum">
+            <h3>Impressum</h3>
+            <p>
+                ALs Pizzaservice <br>
+                Firma André Lesser <br>
+                Körnerstraße 24 <br>
+                04275 Leipzig <br>
+                Gesetzlicher Vertreter: André Lesser <br>
+                info@als-restaurant.de <br>
+                Unternehmensregister: Leipzig <br>
+                Unternehmensregister-Nr: HRB 860041 <br>
+                Unternehmensregister: Stadt Leipzig <br>
+                Unternehmensregister-Nr: 1835789 <br> <br>
+                Plattform der EU-Kommission zur Online-Streitbeilegung: https://ec.europa.eu/consumers/odr
+            </p>
+        </div>
+        <div class="basket" id="basket">
+            <h2>Warenkorb</h2>
+
+            <div id="content">
+                <img src="./img/bag.png">
+                <h3>Der Warenkorb ist leer</h3>
+                <p>Füge leckere Gerichte hinzu</p>
+            </div>
+            <div id="whatToPay"></div>
+        </div>
+        <div class="logo">
+            <img src="./img/logo.jpg">
+        </div>
+    </div>
+
+    <footer>
+        <p>© ALs Lieferservice 2022 </p>
+    </footer>
+</body>
+
+</html>
